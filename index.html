@@ -1,0 +1,53 @@
+<html>
+<head>
+	
+	
+<link rel="stylesheet" type="text/css" href="screen.css" />
+<script src="jquery-1.7.2.min.js"></script>
+<script src="ahah.js"></script>
+<script>
+$(function() {
+    var current_hash = '';
+    setInterval(function() {
+        if(window.location.hash != current_hash) {
+            current_hash = window.location.hash;
+            load(current_hash.substring(1));
+            /*$('#content').load("content.php?page="+current_hash);*/
+        }        
+    }, 100); 
+});
+</script>
+<script>
+
+function load(name) {
+    
+    ahah("pages/"+name+".html","content");
+	
+}
+</script>
+</head>
+<body>
+<div id="container">
+<div id="left">
+
+<h2>Hello</h2>
+<p>
+...
+</p>
+</div>
+<div id="right">
+<div id="content">
+<script>
+setTimeout('redir()', 50);
+//50Milliseconds!  
+//1000millisconds=1second
+function redir() {
+load("index")
+}
+</script>
+This text should not appear, if it does, then the site is loading, or the web browser is bad.
+</div>
+</div>
+</div>
+</body>
+</html>

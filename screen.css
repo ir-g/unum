@@ -1,0 +1,191 @@
+#container{color:white;}
+
+body{background:url(dirt.png) repeat right 55%;padding-right:14px}
+    .search-query{
+    width:190px;
+    text-align:center;
+    }
+.search-button{
+    width:194px;
+    text-align:center;
+    }
+	body {
+		margin: 0;
+		padding: 20px;
+		background: {color:Background};
+		font-family: arial;
+		font-size: 0.75em;
+		color: {color:white};
+	}
+	
+    a:link {color:#FF0000;}      /* unvisited link */
+    a:visited {color:#00FF00;}  /* visited link */
+    a:hover {color:#FF00FF;}  /* mouse over link */
+    a:active {color:#0000FF;}  /* selected link */
+    /*
+	a {
+		color: {color:Text};
+		text-decoration: underline;
+	}
+	
+		a:hover {
+			color: {color:Link Text Hover};
+			background: {color:Link Background Hover};
+		}
+		
+		a:active,
+		a:focus {
+			outline: 0;
+		}
+		*/
+		a img { border-width: 0px; }
+	
+	.clear {
+		clear: both;
+	}
+    
+    /* Compatibilty Check */
+	@media all and (min-width: 700px) {
+	#container {
+	  width: 770px;
+	}
+    #left {
+	float: left;
+	width: 200px;
+        height:100%;
+        position:fixed;
+	top:0px;
+	left:0px;
+	}
+        	#right {
+		width: 500px;
+		float: right;
+	}
+	}
+    @media all and (max-width: 699px){
+        #right{
+            width:90%;
+            }
+            #left{
+         width:100%;
+                }
+            #container{
+                /*width:80%;*/
+                }    
+    /*    body{
+            width:100%;
+            }*/
+        .post{
+            width:90%;
+            }
+        }
+	#left{
+        color:white;
+        background-color:#319a41;
+        }
+	#left a.h2 {
+		text-transform: uppercase;
+		font-size: 2em;
+		line-height: 1em;
+		color:white;
+		text-decoration: none;
+	}
+	
+		#left a.h2:hover {
+			color: {color:Text};
+			background: none;
+			text-decoration: none;
+		}
+		
+	#left .space {
+	/*	width: 100%;*/
+		height: 20px;
+	}
+	
+		#left .space.small {
+			width: 100%;
+			height: 10px;
+		}
+	
+
+	
+		#right .post {
+			margin: 0 0 50px 0;
+		}
+		
+		img {
+		  max-width: 100%;
+		}
+		
+		#right .post h3 {
+			font-weight: normal;
+			font-size: 1.5em;
+			margin: 0;
+			color:white;
+		}
+	
+		#right .post a.h3 {
+			color: {color:Text};
+			text-decoration: none;
+			font-size: 1.5em;
+			margin: 0;
+		}
+		
+			#right .post a.h3:hover {
+				background: none;
+			}
+		
+		#right .post a.h3.link {
+			text-decoration: underline;
+		}
+		
+			#right .post a.h3.link:hover {
+				color: {color:Link Text Hover};
+				background: {color:Link Background Hover};
+			}
+		
+		#right .post blockquote {
+			border-left: 2px solid {color:Text};
+			padding: 0 0 0 15px;
+			margin-left: 0px;
+		}
+		
+		/* this is for chat */
+		#right .post table {
+			margin: 10px 0 0 0;
+			border-collapse: collapse;
+		}
+		
+			#right .post table tr {
+				margin: 1px 0;
+			}
+			
+			#right .post table tr td {
+				padding: auto;
+				vertical-align: top;
+			}
+			
+			#right .post table tr td.name {
+				text-align: right;
+				padding: 1px 15px;
+			}
+			
+			#right .post table tr td.words {
+				width: 100%;
+				text-align: left;
+				padding: 1px;
+			}
+		/* that was for chat */
+		
+		ol.notes {
+      margin: 0 0 50px 0;
+      padding: 0 0 0 0;
+  }
+
+      ol.notes img {
+          display: none;
+      }
+		
+	#right #footer {
+	/*	text-align: right;*/
+	}
