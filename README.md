@@ -1,7 +1,9 @@
-Static-CMS
+UNUM V1
 ==========
 
-An advanced AHAH-protocol static site system.
+An AHAH-protocol based one-meta-page static site system, think of it as a slight better ``<iframe>``.
+
+_This Project is no longer being worked on. A future version, with PJAX, might be made._
 
 ##Pull
 
