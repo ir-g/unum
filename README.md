@@ -19,4 +19,4 @@ To pull the repo, simply type in terminal/command line:
 
 ##Author
 
->Made by [Isaac Reid-Guest](http://jaberwokkee.kodingen.com).
+>Made by [Isaac Reid-Guest](http://isaacrg.github.com).
