@@ -9,7 +9,7 @@ _This veersion is no longer being worked on. A future version, with PJAX, is bei
 
 To pull the repo, simply type in terminal/command line:
 
-    git pull https://github.com/jaberwokkee/Static-CMS.git
+    git pull https://github.com/Unum-Project/Unum-v1..git
 
 ##Plans
 
