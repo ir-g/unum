@@ -5,11 +5,11 @@ An AHAH-protocol based one-meta-page static site system, think of it as a slight
 
 _This veersion is no longer being worked on. A future version, with PJAX, is being made._
 
-##Pull
+##Clone
 
-To pull the repo, simply type in terminal/command line:
+To clone the repo, simply type in terminal/command line:
 
-    git pull https://github.com/Unum-Project/Unum-v1..git
+    git clone https://github.com/Unum-Project/Unum-v1.git
 
 ##Plans
 
