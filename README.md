@@ -3,7 +3,7 @@ UNUM V1
 
 An AHAH-protocol based one-meta-page static site system, think of it as a slight better ``<iframe>``.
 
-_This veersion is no longer being worked on. A future version, with PJAX, is being made._
+_This version is no longer being worked on. A future version, with PJAX, is being made._
 
 ##Clone
 
