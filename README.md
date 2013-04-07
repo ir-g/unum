@@ -9,7 +9,7 @@ _This veersion is no longer being worked on. A future version, with PJAX, is bei
 
 To clone the repo, simply type in terminal/command line:
 
-    git clone https://github.com/Unum-Project/Unum-v1.git
+    git clone https://github.com/Unum-Project/Unum-v1..git
 
 ##Plans
 
