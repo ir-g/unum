@@ -11,7 +11,11 @@ $(function() {
     setInterval(function() {
         if(window.location.hash != current_hash) {
             current_hash = window.location.hash;
-            load(current_hash.substring(1));
+            if(current_hash = ''){
+            	load('index')
+            }else{
+            	load(current_hash.substring(1));
+            }
             /*$('#content').load("content.php?page="+current_hash);*/
         }        
     }, 100); 
@@ -20,9 +24,7 @@ $(function() {
 <script>
 
 function load(name) {
-    
     ahah("pages/"+name+".html","content");
-	
 }
 </script>
 </head>
