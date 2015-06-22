@@ -1,23 +1,21 @@
-#container{color:white;}
+#container{color:black;}
 
-body{padding-right:14px}
-    .search-query{
-    width:190px;
-    text-align:center;
-    }
+body{padding-right:14px
+	margin: 0;
+	padding: 20px;
+	font-family: arial;
+	font-size: 0.75em;
+	color: black;	
+}
+.search-query{
+	width:190px;
+	text-align:center;
+}
 .search-button{
     width:194px;
     text-align:center;
-    }
-	body {
-		margin: 0;
-		padding: 20px;
-		background: {color:Background};
-		font-family: arial;
-		font-size: 0.75em;
-		color: color:black;
-	}
-	
+}
+
     a:link {color:#FF0000;}      /* unvisited link */
     a:visited {color:#00FF00;}  /* visited link */
     a:hover {color:#FF00FF;}  /* mouse over link */
@@ -92,7 +90,7 @@ body{padding-right:14px}
 	}
 	
 		#left a.h2:hover {
-			color: {color:Text};
+			color: black;
 			background: none;
 			text-decoration: none;
 		}
@@ -145,7 +143,7 @@ body{padding-right:14px}
 			}
 		
 		#right .post blockquote {
-			border-left: 2px solid {color:Text};
+			border-left: 2px solid black;
 			padding: 0 0 0 15px;
 			margin-left: 0px;
 		}
