@@ -1,3 +1,5 @@
+// Via http://www.xfront.com/microformats/AHAH.html
+
 function ahah(url,target) {
   document.getElementById(target).innerHTML = ' Fetching data...';
   if (window.XMLHttpRequest) {
