@@ -48,3 +48,12 @@ domready(function() {
         }        
     }, 100); 
 });
+
+/*
+setTimeout('redir()', 50);
+//50Milliseconds!  
+//1000millisconds=1second
+function redir() {
+load("index")
+}
+*/
