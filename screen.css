@@ -77,9 +77,10 @@ body{padding-right:14px
             width:90%;
             }
         }
-	#left{
+	#left{/*
         color:white;
-        background-color:#319a41;
+        background-color:#319a41;*/
+        left-padding: 2em;
         }
 	#left a.h2 {
 		text-transform: uppercase;
