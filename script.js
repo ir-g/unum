@@ -37,6 +37,9 @@ function load(name) {
 // Core code
 domready(function() {
     var current_hash = '';
+    setTimeout(function(){
+      load("index");
+    }, 50);
     setInterval(function() {
         if(window.location.hash != current_hash) {
             current_hash = window.location.hash;
