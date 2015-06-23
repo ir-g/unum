@@ -14,10 +14,10 @@ domready(function() {
     setInterval(function() {
         if(window.location.hash != current_hash) {
             current_hash = window.location.hash;
-            if((current_hash == '')||(current_hash == undefined)){
+            if((current_hash.substring(2) == '')||(current_hash == undefined)){
             	load('index');
             }else{
-            	load(current_hash.substring(1));
+            	load(current_hash.substring(2));
             }
             /*$('#content').load("content.php?page="+current_hash);*/
         }        
