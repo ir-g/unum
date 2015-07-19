@@ -1,29 +1,30 @@
 #container {
-    color: black;
+  color: black;
 }
 body {
-    padding-right: 14px margin: 0;
-    padding: 20px;
-    font-family: arial;
-    font-size: 0.75em;
-    color: black;
+  padding-right: 14px margin: 0;
+  padding: 20px;
+  font-family: arial;
+  font-size: 0.75em;
+  color: black;
 }
 /* unvisited link */
 a:link {
-    color: #4078c0;
+  color: #4078c0;
 }
 
 /* visited link */
 a:visited {
-    color: #4078c0;
+  color: #4078c0;
 }
 
 /* mouse over link */
 a:hover {
-    color: #4078c0;
+  color: #4078c0;
 }
 img {
-    border-width: 0px;
+  border-width: 0px;
+  max-width: 100%;
 }
 .clear {
     clear: both;
@@ -31,45 +32,30 @@ img {
 /* Compatibilty Check */
 
 @media all and (min-width: 700px) {
-    #container {
-        width: 770px;
-        margin: 0 auto;
-    }
-    #left {
-        float: left;
-        width: 200px;
-        height: 100%;
-        position: fixed;
-    }
-    #right {
-        width: 500px;
-        float: right;
-    }
+  #container {
+    width: 770px;
+    margin: 0 auto;
+  }
+  #left {
+    float: left;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+  }
+  #right {
+    width: 500px;
+    float: right;
+  }
 }
 @media all and (max-width: 699px) {
   #content {
     width: 95%;
     margin: 0 auto;
   }
-    #right {
+  #right {
       width: inherit;
-    }
-    #left {
+  }
+  #left {
       width: inherit;
-    }
+  }
 }
-    #left a.h2 {
-        text-transform: uppercase;
-        font-size: 2em;
-        line-height: 1em;
-        color: white;
-        text-decoration: none;
-    }
-    #left a.h2:hover {
-        color: black;
-        background: none;
-        text-decoration: none;
-    }
-    img {
-        max-width: 100%;
-    }
