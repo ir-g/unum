@@ -8,50 +8,20 @@ body {
     font-size: 0.75em;
     color: black;
 }
-.search-query {
-    width: 190px;
-    text-align: center;
-}
-.search-button {
-    width: 194px;
-    text-align: center;
-}
+/* unvisited link */
 a:link {
     color: #4078c0;
 }
-/* unvisited link */
 
+/* visited link */
 a:visited {
     color: #4078c0;
 }
-/* visited link */
 
+/* mouse over link */
 a:hover {
     color: #4078c0;
 }
-/* mouse over link */
-
-a:active {
-    color: #4078c0;
-}
-/* selected link */
-/*
-	a {
-		color: {color:Text};
-		text-decoration: underline;
-	}
-	
-		a:hover {
-			color: {color:Link Text Hover};
-			background: {color:Link Background Hover};
-		}
-		
-		a:active,
-		a:focus {
-			outline: 0;
-		}
-		*/
-
 img {
     border-width: 0px;
 }
