@@ -48,14 +48,7 @@ img {
   }
 }
 @media all and (max-width: 699px) {
-  #content {
-    width: 95%;
-    margin: 0 auto;
-  }
-  #right {
-      width: inherit;
-  }
-  #left {
+  #right, #content, #left {
       width: inherit;
   }
 }
