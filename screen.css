@@ -55,7 +55,11 @@ img {
   #right, #content, #left {
       width: inherit;
   }
-  .nav li{
+  ul.nav{
+    margin:0;
+    padding:0;
+  }
+  ul.nav li{
     display:inline;
   }
 }
