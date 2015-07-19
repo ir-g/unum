@@ -8,20 +8,24 @@ body {
   font-size: 0.75em;
   color: black;
 }
+
+#right {
+  padding-top: 2em;
+}
+
 /* unvisited link */
 a:link {
   color: #4078c0;
 }
-
 /* visited link */
 a:visited {
   color: #4078c0;
 }
-
 /* mouse over link */
 a:hover {
   color: #4078c0;
 }
+
 img {
   border-width: 0px;
   max-width: 100%;
