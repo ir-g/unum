@@ -55,4 +55,7 @@ img {
   #right, #content, #left {
       width: inherit;
   }
+  .nav li{
+    display:inline;
+  }
 }
