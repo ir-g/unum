@@ -77,19 +77,16 @@ img {
     }
 }
 @media all and (max-width: 699px) {
+  #content {
+    width: 95%;
+    margin: 0 auto;
+  }
     #right {
-        width: 95%;
-        margin: 0 auto;
+      width: inherit;
     }
     #left {
-        width: 100%;
-    }
-    #left {
-        /*
-        color:white;
-        background-color:#319a41;*/
-        
-        left-padding: 2em;
+      width: inherit;
+      /*left-padding: 2em;*/
     }
     #left a.h2 {
         text-transform: uppercase;
