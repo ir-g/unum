@@ -1,5 +1,5 @@
 #container {
-    color: #000;
+    color: black;
 }
 body {
     padding-right: 14px margin: 0;
@@ -8,24 +8,27 @@ body {
     font-size: .75em;
     color: #000;
 }
+
+/* unvisited link */
 a:link {
     color: #4078c0;
 }
-/* unvisited link */
 
+/* visited link */
 a:visited {
     color: #4078c0;
 }
-/* visited link */
 
+/* mouse over link */
 a:hover {
     color: #4078c0;
 }
-/* mouse over link */
 
+/* Presently selected */
 a:active {
     color: #4078c0;
 }
+
 img {
     border-width: 0;
 }
