@@ -1,4 +1,4 @@
 ---
 ---
 
-However ugly your website is, it shouldn't have to be ugly. See [About](#!/about)
+Whether or not your website is ugly, it shouldn't have to be slow. See [About](#!/about)
