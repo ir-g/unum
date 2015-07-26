@@ -63,6 +63,6 @@ img {
   }
 }
 
-.loading{
-  border-top: 0.5em solid yellow;
+.loading:before{
+  content: "Loading...";
 }
