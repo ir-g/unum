@@ -53,20 +53,26 @@ function load(name) {
     ahah("pages/"+name+".html","content");
 }
 
+function doLoad(){
+  if((current_hash.substring(3) == '')||(current_hash == undefined)){
+  	load('index');
+  }else{
+    load(current_hash.substring(3));
+  }
+}
+
+var current_hash = '';
+
 // Core code
 domready(function() {
-    var current_hash = '';
     setTimeout(function(){
-      load("index");
+      current_hash = window.location.hash;
+      doLoad();
     }, 50);
     setInterval(function() {
         if(window.location.hash != current_hash) {
             current_hash = window.location.hash;
-            if((current_hash.substring(3) == '')||(current_hash == undefined)){
-            	load('index');
-            }else{
-            	load(current_hash.substring(3));
-            }
+            doLoad();
         }        
     }, 100); 
 });
