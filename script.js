@@ -1,3 +1,15 @@
+/*
+  CONFIG START
+*/
+// The start part of the request path BEFORE the page name
+var page_pre = "pages/"
+// The end part of the request path AFTER the page name
+var page_ext = ".html"
+// The id of the div which has its content changed.
+var div_name = "content"
+/*
+  CONFIG END
+*/
 // Below code via http://jaketrent.com/post/addremove-classes-raw-javascript/
 
 function hasClass(ele,cls) {
@@ -50,7 +62,7 @@ function ahahDone(url, target) {
 // Load page function. Does not change the url of the page.
 
 function load(name) {
-    ahah("pages/"+name+".html","content");
+    ahah(page_pre+name+page_ext,div_name);
 }
 
 function doLoad(){
