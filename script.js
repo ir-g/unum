@@ -18,7 +18,8 @@ function removeClass(ele,cls) {
 // Below code via http://www.xfront.com/microformats/AHAH.html
 
 function ahah(url,target) {
-  document.getElementById(target).innerHTML = ' Fetching data...';
+  //document.getElementById(target).innerHTML = ' Fetching data...';
+  addClass(document.getElementById(target),"loading");
   if (window.XMLHttpRequest) {
     req = new XMLHttpRequest();
   } else if (window.ActiveXObject) {
@@ -33,6 +34,7 @@ function ahah(url,target) {
 
 function ahahDone(url, target) {
   if (req.readyState == 4) { // only if req is "loaded"
+    removeClass(document.getElementById(target), "loading")
     if (req.status == 200) { // only if "OK"
       document.getElementById(target).innerHTML = req.responseText;
     } else {
