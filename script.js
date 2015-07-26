@@ -1,4 +1,21 @@
-// Via http://www.xfront.com/microformats/AHAH.html
+// Below code via http://jaketrent.com/post/addremove-classes-raw-javascript/
+
+function hasClass(ele,cls) {
+  return !!ele.className.match(new RegExp('(\\s|^)'+cls+'(\\s|$)'));
+}
+
+function addClass(ele,cls) {
+  if (!hasClass(ele,cls)) ele.className += " "+cls;
+}
+
+function removeClass(ele,cls) {
+  if (hasClass(ele,cls)) {
+    var reg = new RegExp('(\\s|^)'+cls+'(\\s|$)');
+    ele.className=ele.className.replace(reg,' ');
+  }
+}
+
+// Below code via http://www.xfront.com/microformats/AHAH.html
 
 function ahah(url,target) {
   document.getElementById(target).innerHTML = ' Fetching data...';
@@ -24,12 +41,12 @@ function ahahDone(url, target) {
   }
 }
 
-/*!
-  * domready (c) Dustin Diaz 2012 - License MIT - github.com/ded/domready
-  */
+// domready (c) Dustin Diaz 2012 - License MIT - github.com/ded/domready
+
 !function(e,t){typeof module!="undefined"?module.exports=t():typeof define=="function"&&typeof define.amd=="object"?define(t):this[e]=t()}("domready",function(e){function p(e){h=1;while(e=t.shift())e()}var t=[],n,r=!1,i=document,s=i.documentElement,o=s.doScroll,u="DOMContentLoaded",a="addEventListener",f="onreadystatechange",l="readyState",c=o?/^loaded|^c/:/^loaded|c/,h=c.test(i[l]);return i[a]&&i[a](u,n=function(){i.removeEventListener(u,n,r),p()},r),o&&i.attachEvent(f,n=function(){/^c/.test(i[l])&&(i.detachEvent(f,n),p())}),e=o?function(n){self!=top?h?n():t.push(n):function(){try{s.doScroll("left")}catch(t){return setTimeout(function(){e(n)},50)}n()}()}:function(e){h?e():t.push(e)}})
 
 // Load page function. Does not change the url of the page.
+
 function load(name) {
     ahah("pages/"+name+".html","content");
 }
